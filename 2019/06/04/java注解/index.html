@@ -10,9 +10,7 @@
 
     <!--Description-->
     
-        <meta name="description" content="The Java Technology Phenomenonprovide an overview of what this technology can do for you
-About the java technologyprogramming language and platform
-th">
+        <meta name="description" content="注解注解使用12345@value(value=&#34;2&#34;,test=true)@demo(&#34;demo1&#34;) //注解的值可以是任何类型@demo(&#34;demo2&#34;)//默认给value赋值@array（&amp;#123;@element1(1),@element2(2)&amp;#125;）private Strin">
     
 
     <!--Author-->
@@ -22,7 +20,7 @@ th">
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="The Java Technology Phenomenon">
+        <meta property="og:title" content="java注解">
     
 
     <!--Open Graph Description-->
@@ -44,7 +42,7 @@ th">
 
     <!-- Title -->
     
-    <title>The Java Technology Phenomenon - 杨鹏的博客</title>
+    <title>java注解 - 杨鹏的博客</title>
 
     <!-- Tachyons Core CSS -->
     <link rel="stylesheet" href="//unpkg.com/tachyons/css/tachyons.min.css">
@@ -114,8 +112,8 @@ th">
     <!-- Title -->
     <div class="w-100 mw8 center vh-40 dt">
         <div class="dtc v-mid white">
-            <h1 class="f1-l f2-m tc tc-m tl-ns">The Java Technology Phenomenon</h1>
-            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2019-05-24</p>
+            <h1 class="f1-l f2-m tc tc-m tl-ns">java注解</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2019-06-04</p>
         </div>
     </div>
 
@@ -133,52 +131,24 @@ th">
                 <div class="fl w-100 w-70-l mw7 left fw3 lh-copy pr4-ns pr0-m post-content">
                     <!-- Tags Vertical -->
                     
+                        <div class="tags-container-vertical">
+                            <div class="tags-sub-container">
+                                <a class="fw3 ph1 dib" href="/tags/java基础/">#java基础</a>
+                            </div>
+                        </div>
+                    
 
                     <!-- Main Post Content -->
-                    <h2 id="The-Java-Technology-Phenomenon"><a href="#The-Java-Technology-Phenomenon" class="headerlink" title="The Java Technology Phenomenon"></a>The Java Technology Phenomenon</h2><p>provide an overview of what this technology can do for you</p>
-<h3 id="About-the-java-technology"><a href="#About-the-java-technology" class="headerlink" title="About the java technology"></a>About the java technology</h3><p>programming language and platform</p>
-<h4 id="the-java-programming-language"><a href="#the-java-programming-language" class="headerlink" title="the java programming language"></a>the java programming language</h4><ol>
-<li>characters</li>
-</ol>
-<ul>
-<li>simple </li>
-<li>architecture neutral </li>
-<li>object oriented </li>
-<li>protable</li>
-<li>distrusted</li>
-<li>high performance</li>
-<li>mutithread</li>
-<li>robust</li>
-<li>dynamic</li>
-<li>secure</li>
-</ul>
-<ol start="2">
-<li>running<br><img src="/images/1.png" alt="35af7a7ef8490c00de71f0ad643c31e6.png"></li>
-<li>protable<br><img src="/images/2.png" alt="5c15aeeaa94eb6ac6135973520a8674b.png"><br>the VM can perform additional steps at runtime to give your application a performance boost,such as recompile frequently used section of code and find performance bottlenecks</li>
-</ol>
-<hr>
-<h4 id="the-java-platform"><a href="#the-java-platform" class="headerlink" title="the java platform"></a>the java platform</h4><p>the java platform has two components</p>
-<ul>
-<li>the java virtual machine</li>
-<li>the java application programming interface (API)<br><img src="/images/3.png" alt="20f2c6211d66e7cbff4a7b519cd9f20e.png"></li>
-</ul>
-<h3 id="what-can-java-technology-do"><a href="#what-can-java-technology-do" class="headerlink" title="what can java technology do"></a>what can java technology do</h3><ul>
-<li>development tools</li>
-<li>application programming interface</li>
-<li>integration libraries</li>
-</ul>
-<h3 id="how-will-java-technology-change-my-life"><a href="#how-will-java-technology-change-my-life" class="headerlink" title="how will java technology change my life"></a>how will java technology change my life</h3><ul>
-<li>get start quickly</li>
-<li>write less code</li>
-<li>write better code </li>
-<li>develop programs more quickly</li>
-<li>avoid platform dependence</li>
-<li>write once,run anywhere</li>
-<li>distribute software more easily</li>
-</ul>
+                    <h2 id="注解"><a href="#注解" class="headerlink" title="注解"></a>注解</h2><h3 id="注解使用"><a href="#注解使用" class="headerlink" title="注解使用"></a>注解使用</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@value</span>(value=<span class="string">"2"</span>,test=<span class="keyword">true</span>)</span><br><span class="line"><span class="meta">@demo</span>(<span class="string">"demo1"</span>) <span class="comment">//注解的值可以是任何类型</span></span><br><span class="line"><span class="meta">@demo</span>(<span class="string">"demo2"</span>)<span class="comment">//默认给value赋值</span></span><br><span class="line"><span class="meta">@array</span>（&#123;<span class="meta">@element</span>1(<span class="number">1</span>),<span class="meta">@element</span>2(<span class="number">2</span>)&#125;）</span><br><span class="line"><span class="keyword">private</span> String user;</span><br></pre></td></tr></table></figure>
+<h3 id="使用场合"><a href="#使用场合" class="headerlink" title="使用场合"></a>使用场合</h3><p>实例化，类型转化，实现接口，异常<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> <span class="meta">@Interned</span> User</span><br><span class="line">myString = (<span class="meta">@NonNull</span> String) str;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UnmodifiableList</span>&lt;<span class="title">T</span>&gt; <span class="keyword">implements</span></span></span><br><span class="line"><span class="class">        @<span class="title">Readonly</span> <span class="title">List</span>&lt;@<span class="title">Readonly</span> <span class="title">T</span>&gt; </span>&#123; ... &#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">monitorTemperature</span><span class="params">()</span> <span class="keyword">throws</span></span></span><br><span class="line"><span class="function">        @Critical TemperatureException </span>&#123; ... &#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="定义注解"><a href="#定义注解" class="headerlink" title="定义注解"></a>定义注解</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Repeatable</span>(Schedules.class)  <span class="comment">//注解container</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> Schedule &#123;</span><br><span class="line">  <span class="function">String <span class="title">dayOfMonth</span><span class="params">()</span> <span class="keyword">default</span> "first"</span>;</span><br><span class="line">  <span class="function">String <span class="title">dayOfWeek</span><span class="params">()</span> <span class="keyword">default</span> "Mon"</span>;</span><br><span class="line">  <span class="function"><span class="keyword">int</span> <span class="title">hour</span><span class="params">()</span> <span class="keyword">default</span> 12</span>;</span><br><span class="line">&#125;</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">### 获取注解</span><br><span class="line">反射方法</span><br><span class="line">```java</span><br><span class="line">AnnotatedElement.getAnnotation(Class&lt;T&gt;)<span class="comment">//单个注解</span></span><br><span class="line">AnnotatedElement.getAnnotationsByType(Class&lt;T&gt;)<span class="comment">//注解容器</span></span><br></pre></td></tr></table></figure>
 
                     
                     <!-- Tags Bottom -->
+                    
+                        <div class="tags-container-bottom">
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/java基础/">#java基础</a>
+                        </div>
                     
 
                     <!-- Comments -->
